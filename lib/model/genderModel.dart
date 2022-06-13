@@ -4,3 +4,10 @@ class GenderModel {
 
   GenderModel(this.gender, this.image);
 }
+
+class SelectModel {
+  String? weight;
+  String? age;
+
+  SelectModel(this.weight, this.age);
+}
