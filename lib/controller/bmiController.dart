@@ -5,6 +5,7 @@ import '../model/genderModel.dart';
 
 class BmiController extends GetxController {
   var selectedColor = Colors.grey.obs();
+  var values = 0.0.obs();
   List<GenderModel> gender = [
     GenderModel("Male", "assets/male.png"),
     GenderModel("Female", "assets/female.png")
